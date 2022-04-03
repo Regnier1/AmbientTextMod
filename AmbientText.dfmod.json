@@ -1,0 +1,11 @@
+{
+    "ModTitle": "AmbientText",
+    "ModVersion": "0.2",
+    "ModAuthor": "Regnier",
+    "DFUnity_Version": "0.13.4",
+    "GUID": "045e9dd3-3d00-4241-87f3-ec9fd6947d12",
+    "Files": [
+        "Assets/Game/Mods/AmbientText/Scripts/AmbientText.cs",
+        "Assets/Game/Mods/AmbientText/Scripts/AmbientTextMod.cs"
+    ]
+}
