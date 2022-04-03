@@ -1,5 +1,5 @@
 // Project:         RoleplayRealism mod for Daggerfall Unity (http://www.dfworkshop.net)
-// Copyright:       Copyright (C) 2022 Hazelnut
+// Copyright:       Copyright (C) 2022 Regnier
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
 // Author:          Regnier
 

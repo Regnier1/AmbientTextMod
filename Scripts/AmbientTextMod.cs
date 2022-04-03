@@ -1,5 +1,5 @@
 // Project:         AmbientText mod for Daggerfall Unity (http://www.dfworkshop.net)
-// Copyright:       Copyright (C) 2020 Hazelnut
+// Copyright:       Copyright (C) 2020 Regnier
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
 // Author:          Hazelnut
 
