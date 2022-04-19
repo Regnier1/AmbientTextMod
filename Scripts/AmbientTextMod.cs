@@ -80,7 +80,7 @@ namespace AmbientText
                     if (Dice100.SuccessRoll(textChance))
                     {
                         string textMsg = SelectAmbientText();
-                        if (textMsg != null)
+                        if (!string.IsNullOrWhiteSpace(textMsg))
                         {
                             Debug.Log(textMsg);
                             DaggerfallUI.AddHUDText(textMsg, textDisplayTime);
