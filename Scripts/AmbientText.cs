@@ -623,7 +623,7 @@ namespace AmbientText
 { "DungeonLabyrinthWoods6", "" },
 { "DungeonLabyrinthWoods7", "You feel the suffering inflicted here" },
 { "DungeonLabyrinthWoods8", "You hear something cry out in death" },
-{ "DungeonLabyrinthWoods9", "Most turn back here..." },
+{ "DungeonLabyrinthWoods9", "Most don't make it out alive" },
 
 { "DungeonLabyrinthMountains0", "Screams echo off the mountains and hit your ear" },
 { "DungeonLabyrinthMountains1", "Blood is shed on the rocks" },
@@ -1389,7 +1389,7 @@ namespace AmbientText
 { "DungeonLabyrinthDay9", "A Gods forsaken Oblivion hole" },
 
 { "DungeonLabyrinthNight0", "You feel bones underfoot" },
-{ "DungeonLabyrinthNight1", "Ghostly warnings find your ears" },
+{ "DungeonLabyrinthNight1", "Ghostly warnings haunt your ears" },
 { "DungeonLabyrinthNight2", "This place tests the resolve of mortals" },
 { "DungeonLabyrinthNight3", "The forces of evil lurk here" },
 { "DungeonLabyrinthNight4", "The torment of Oblivion flashes in your mind" },
