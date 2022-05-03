@@ -29,7 +29,7 @@ namespace AmbientText
 //Wilderness Climates:
 { "NoneDesert0", "The sand slides under your feet." },
 { "NoneDesert1", "There are some dried bones under the sand here." },
-{ "NoneDesert2", "" },
+{ "NoneDesert2", "A dried out plants rolls by" },
 { "NoneDesert3", "A tiny lizard scampers about." },
 { "NoneDesert4", "A snake submerges in the sand." },
 { "NoneDesert5", "There are scorpion tracks here." },
@@ -37,7 +37,7 @@ namespace AmbientText
 { "NoneDesert7", "You see some footprints in the sand." },
 { "NoneDesert8", "A baby scorpion crosses your path." },
 { "NoneDesert9", "You brush sand out of your eyes." },
-
+//---
 { "NoneSwamp0", "Someone recently burned oil here." },
 { "NoneSwamp1", "A reptile calls in the distance." },
 { "NoneSwamp2", "Trails lead off through the mud." },
@@ -48,7 +48,7 @@ namespace AmbientText
 { "NoneSwamp7", "You breathe the thick, damp air." },
 { "NoneSwamp8", "The bugs are unbearable." },
 { "NoneSwamp9", "You stub your toe on a rotten stump." },
-
+//---
 { "NoneWoods0", "One could get lost out here." },
 { "NoneWoods1", "A horse neighs in the distance." },
 { "NoneWoods2", "This arboreal scent is very relaxing." },
@@ -59,7 +59,7 @@ namespace AmbientText
 { "NoneWoods7", "An animal shrieks in the tree near you." },
 { "NoneWoods8", "It looks like spriggans have been here." },
 { "NoneWoods9", "The forest canopy provides some shelter." },
-
+//---
 { "NoneMountains0", "You step in a bear track." },
 { "NoneMountains1", "You hear an animal in the distance." },
 { "NoneMountains2", "You cross over some old bones." },
@@ -70,7 +70,7 @@ namespace AmbientText
 { "NoneMountains7", "Your foot lands next to a tough, spiky plant." },
 { "NoneMountains8", "You startle some birds." },
 { "NoneMountains9", "You feel watched." },
-
+//---
 { "NoneOcean0", "Calm waves roll around you." },
 { "NoneOcean1", "The smell of the sea fills your lungs." },
 { "NoneOcean2", "You wonder what foul beasts reside in the deep." },
@@ -81,7 +81,9 @@ namespace AmbientText
 { "NoneOcean7", "The sound of the ocean is like a lullaby." },
 { "NoneOcean8", "You remember that time you almost drowned." },
 { "NoneOcean9", "You check the water for Slaughterfish." },
+//--- ---
 
+//--- ---
 //City Climates:
 { "TownCityDesert0", "You smell roasting scorpion." },
 { "TownCityDesert1", "Many people have walked these paths." },
@@ -93,7 +95,7 @@ namespace AmbientText
 { "TownCityDesert7", "The cityfolk protect their belongings from the sand." },
 { "TownCityDesert8", "" },
 { "TownCityDesert9", "A lizard snatches a beetle and runs off." },
-
+//---
 { "TownCitySwamp0", "Your toe catches on a lump of mud" },
 { "TownCitySwamp1", "Your feet weigh heavily in this damp soil." },
 { "TownCitySwamp2", "" },
@@ -104,7 +106,7 @@ namespace AmbientText
 { "TownCitySwamp7", "Taverns provide a bed free from mud." },
 { "TownCitySwamp8", "" },
 { "TownCitySwamp9", "" },
-
+//---
 { "TownCityWoods0", "The smell of roast pig fills the air." },
 { "TownCityWoods1", "You see a sturdy walking stick leaning nearby." },
 { "TownCityWoods2", "" },
@@ -115,18 +117,20 @@ namespace AmbientText
 { "TownCityWoods7", "Someone scratched a game board onto a tree stump" },
 { "TownCityWoods8", "" },
 { "TownCityWoods9", "The cityfolk attempt to ward off tree spirits." },
-
+//---
 { "TownCityMountains0", "This area smells heavily of roast chicken." },
 { "TownCityMountains1", "The wind can be quite strong." },
 { "TownCityMountains2", "The city is well situated in the mountains." },
 { "TownCityMountains3", "The cityfolk feel they are closer to The Divines here." },
 { "TownCityMountains4", "Some of the rocks have religious markings." },
 { "TownCityMountains5", "The city walls contain decorated mountain rocks." },
-{ "TownCityMountains6", "Some believe the evergreens point to The Divines." },
+{ "TownCityMountains6", "Some believe the evergreens point to The Gods." },
 { "TownCityMountains7", "" },
 { "TownCityMountains8", "" },
 { "TownCityMountains9", "" },
+//--- ---
 
+//--- ---
 //Hamlet Climates:
 { "TownHamletDesert0", "" },
 { "TownHamletDesert1", "Villagers shelter their possessions from the sand." },
@@ -138,7 +142,7 @@ namespace AmbientText
 { "TownHamletDesert7", "" },
 { "TownHamletDesert8", "" },
 { "TownHamletDesert9", "A swell of dust stings your eyes." },
-
+//---
 { "TownHamletSwamp0", "" },
 { "TownHamletSwamp1", "There seem to be fewer bugs in the village." },
 { "TownHamletSwamp2", "Your feet need to be dried by a fire." },
@@ -149,7 +153,7 @@ namespace AmbientText
 { "TownHamletSwamp7", "" },
 { "TownHamletSwamp8", "A villager drops their basket in the mud." },
 { "TownHamletSwamp9", "" },
-
+//---
 { "TownHamletWoods0", "The birds sing and flutter." },
 { "TownHamletWoods1", "You brush some twigs off your shoulder." },
 { "TownHamletWoods2", "The smell of woodfire is welcoming." },
@@ -160,7 +164,7 @@ namespace AmbientText
 { "TownHamletWoods7", "" },
 { "TownHamletWoods8", "" },
 { "TownHamletWoods9", "" },
-
+//---
 { "TownHamletMountains0", "You smell a wonderous spice from someones window" },
 { "TownHamletMountains1", "" },
 { "TownHamletMountains2", "The rocks are adorned with decoration" },
@@ -171,7 +175,9 @@ namespace AmbientText
 { "TownHamletMountains7", "Villagers pray atop the peaks" },
 { "TownHamletMountains8", "" },
 { "TownHamletMountains9", "" },
+//--- ---
 
+//--- ---
 //Village Climates:
 { "TownVillageDesert0", "The sand builds on the sides of the houses" },
 { "TownVillageDesert1", "A lizard rests in the sand nearby" },
@@ -183,7 +189,7 @@ namespace AmbientText
 { "TownVillageDesert7", "The vulture overhead flys off" },
 { "TownVillageDesert8", "" },
 { "TownVillageDesert9", "" },
-
+//---
 { "TownVillageSwamp0", "A child's toy is buried in mud" },
 { "TownVillageSwamp1", "The smell of wood fires replaces the stale bog" },
 { "TownVillageSwamp2", "" },
@@ -194,7 +200,7 @@ namespace AmbientText
 { "TownVillageSwamp7", "You hope to find an accomodating tavern" },
 { "TownVillageSwamp8", "" },
 { "TownVillageSwamp9", "" },
-
+//---
 { "TownVillageWoods0", "You hear someone chopping wood" },
 { "TownVillageWoods1", "You smell the smoke of a fire" },
 { "TownVillageWoods2", "A sturdy walking stick rests next to a house" },
@@ -205,7 +211,7 @@ namespace AmbientText
 { "TownVillageWoods7", "This is a place to rest your legs" },
 { "TownVillageWoods8", "You hear the wind rustle the leaves" },
 { "TownVillageWoods9", "" },
-
+//---
 { "TownVillageMountains0", "Rocks are shaped and used as decoration" },
 { "TownVillageMountains1", "The wind blows through the houses" },
 { "TownVillageMountains2", "There's a well worn merchant path" },
@@ -216,7 +222,9 @@ namespace AmbientText
 { "TownVillageMountains7", "" },
 { "TownVillageMountains8", "You hear some birds nearby" },
 { "TownVillageMountains9", "" },
+//--- ---
 
+//--- ---
 //Tavern Climates:
 { "TavernDesert0", "You wipe the sand from your eyes" },
 { "TavernDesert1", "This place had better keep the drink flowing" },
@@ -228,7 +236,7 @@ namespace AmbientText
 { "TavernDesert7", "" },
 { "TavernDesert8", "" },
 { "TavernDesert9", "You can smell the ale from here" },
-
+//---
 { "TavernSwamp0", "" },
 { "TavernSwamp1", "The area is quite muddy" },
 { "TavernSwamp2", "Many a weary traveller has stopped here" },
@@ -239,7 +247,7 @@ namespace AmbientText
 { "TavernSwamp7", "Someone is passed out around back" },
 { "TavernSwamp8", "A mud free tavern is a welcome sight" },
 { "TavernSwamp9", "You hope for fresh food" },
-
+//---
 { "TavernWoods0", "Someone is swaying behind a tree" },
 { "TavernWoods1", "You see fresh chopped firewood" },
 { "TavernWoods2", "You lust after the thought of a drink" },
@@ -250,7 +258,7 @@ namespace AmbientText
 { "TavernWoods7", "This seems to be a popular establishment" },
 { "TavernWoods8", "You almost couldnt find this place through the trees" },
 { "TavernWoods9", "" },
-
+//---
 { "TavernMountains0", "The rocks are covered in broken bottles" },
 { "TavernMountains1", "You can see and hear this place for a mile" },
 { "TavernMountains2", "The residents tolerate the rowdy patrons" },
@@ -261,7 +269,9 @@ namespace AmbientText
 { "TavernMountains7", "A stack of firewood sits nearby" },
 { "TavernMountains8", "" },
 { "TavernMountains9", "" },
+//--- ---
 
+//--- ---
 //Farm Climates:
 { "HomeFarmsDesert0", "Maybe there's some food to spare" },
 { "HomeFarmsDesert1", "It must be hard work to get a prosperous yield" },
@@ -273,7 +283,7 @@ namespace AmbientText
 { "HomeFarmsDesert7", "" },
 { "HomeFarmsDesert8", "These people feed the nearby towns and villages" },
 { "HomeFarmsDesert9", "" },
-
+//---
 { "HomeFarmsSwamp0", "There's plenty of water for the soil here" },
 { "HomeFarmsSwamp1", "You swat a fly away" },
 { "HomeFarmsSwamp2", "" },
@@ -284,7 +294,7 @@ namespace AmbientText
 { "HomeFarmsSwamp7", "The birds have found some seeds to peck at" },
 { "HomeFarmsSwamp8", "Hopefully the farmhands feel like sharing" },
 { "HomeFarmsSwamp9", "These people feed many others in their region" },
-
+//---
 { "HomeFarmsWoods0", "You hope for a generous farmhand" },
 { "HomeFarmsWoods1", "They've cleared the trees to get sun on the crops" },
 { "HomeFarmsWoods2", "This land can be difficult to manage" },
@@ -295,7 +305,7 @@ namespace AmbientText
 { "HomeFarmsWoods7", "This farm is vital to feeding the locals" },
 { "HomeFarmsWoods8", "This place feels private and peaceful" },
 { "HomeFarmsWoods9", "" },
-
+//---
 { "HomeFarmsMountains0", "A careful hand can grow a field of crops here" },
 { "HomeFarmsMountains1", "The Divines are held dear for mountain growers" },
 { "HomeFarmsMountains2", "Mountain rocks reinforce their walls" },
@@ -306,7 +316,9 @@ namespace AmbientText
 { "HomeFarmsMountains7", "" },
 { "HomeFarmsMountains8", "The yield here will feed people in the surrounding area" },
 { "HomeFarmsMountains9", "" },
+//--- ---
 
+//--- ---
 //Mansion Climates:
 { "HomeWealthyDesert0", "This estate is more well off than others" },
 { "HomeWealthyDesert1", "There is a squire eyeing you" },
@@ -318,7 +330,7 @@ namespace AmbientText
 { "HomeWealthyDesert7", "" },
 { "HomeWealthyDesert8", "More is spent on water than many make in a year" },
 { "HomeWealthyDesert9", "" },
-
+//---
 { "HomeWealthySwamp0", "You see very high quality wares in use" },
 { "HomeWealthySwamp1", "The animals are kept in good condition" },
 { "HomeWealthySwamp2", "This place is more ornate than many others" },
@@ -329,7 +341,7 @@ namespace AmbientText
 { "HomeWealthySwamp7", "You see a princely looking figure in the window" },
 { "HomeWealthySwamp8", "" },
 { "HomeWealthySwamp9", "" },
-
+//---
 { "HomeWealthyWoods0", "These houses are sturdy and secure" },
 { "HomeWealthyWoods1", "Many caravans come through here with goods" },
 { "HomeWealthyWoods2", "" },
@@ -340,7 +352,7 @@ namespace AmbientText
 { "HomeWealthyWoods7", "" },
 { "HomeWealthyWoods8", "That smell on the air, you didnt think that spice was available here" },
 { "HomeWealthyWoods9", "This is fit for a King" },
-
+//---
 { "HomeWealthyMountains0", "The cost of these building materials is astounding" },
 { "HomeWealthyMountains1", "" },
 { "HomeWealthyMountains2", "Flowers decorate these buildings" },
@@ -351,7 +363,9 @@ namespace AmbientText
 { "HomeWealthyMountains7", "Some of the rocks have carvings inlet with gems" },
 { "HomeWealthyMountains8", "The animals water is clear and plentiful" },
 { "HomeWealthyMountains9", "" },
+//--- ---
 
+//--- ---
 //Hovel Climates:
 { "HomePoorDesert0", "The house has fallen into disrepair" },
 { "HomePoorDesert1", "" },
@@ -363,7 +377,7 @@ namespace AmbientText
 { "HomePoorDesert7", "The sand has covered some of the old structures" },
 { "HomePoorDesert8", "You pain to see someone live like this" },
 { "HomePoorDesert9", "Maybe this place used to be nice" },
-
+//---
 { "HomePoorSwamp0", "You see a broken wagon wheel" },
 { "HomePoorSwamp1", "" },
 { "HomePoorSwamp2", "This house is barely standing" },
@@ -374,7 +388,7 @@ namespace AmbientText
 { "HomePoorSwamp7", "" },
 { "HomePoorSwamp8", "" },
 { "HomePoorSwamp9", "Some broken equipment is discarded nearby" },
-
+//---
 { "HomePoorWoods0", "The forest is starting to swallow this place" },
 { "HomePoorWoods1", "You doubt many people even know this exists" },
 { "HomePoorWoods2", "The house looks broken down" },
@@ -385,7 +399,7 @@ namespace AmbientText
 { "HomePoorWoods7", "You dont want to stay here very long" },
 { "HomePoorWoods8", "" },
 { "HomePoorWoods9", "" },
-
+//---
 { "HomePoorMountains0", "The ground is rocky and uneven" },
 { "HomePoorMountains1", "You wince at the squalor" },
 { "HomePoorMountains2", "You sense this used to be a reputable establishment" },
@@ -397,7 +411,7 @@ namespace AmbientText
 { "HomePoorMountains8", "" },
 { "HomePoorMountains9", "Someone tried to scratch a religious symbol here" },
 
-
+//--- ---
 //Player Ship Climates:
 { "HomeYourShipsOcean0", "The waves sound like a lullaby" },
 { "HomeYourShipsOcean1", "The water extends for miles" },
@@ -410,7 +424,7 @@ namespace AmbientText
 { "HomeYourShipsOcean8", "" },
 { "HomeYourShipsOcean9", "" },
 
-
+//--- ---
 // Graveyard Climates:
 { "GraveyardDesert0", "Some bones are half buried in the sand" },
 { "GraveyardDesert1", "Scavengers indicate a recent burial" },
@@ -422,7 +436,7 @@ namespace AmbientText
 { "GraveyardDesert7", "Beetles scurry from your step" },
 { "GraveyardDesert8", "There are some old dried flowers buried in the sand" },
 { "GraveyardDesert9", "A religious symbol is scratched into the stone" },
-
+//---
 { "GraveyardSwamp0", "Sounds are coming from the crypt" },
 { "GraveyardSwamp1", "The bugs are large and confident" },
 { "GraveyardSwamp2", "The vegetation has gone rancid" },
@@ -433,7 +447,7 @@ namespace AmbientText
 { "GraveyardSwamp7", "Something was dragged through the mud" },
 { "GraveyardSwamp8", "" },
 { "GraveyardSwamp9", "An old symbol of The Nine has nearly vanished" },
-
+//---
 { "GraveyardWoods0", "The trees around this site look diseased" },
 { "GraveyardWoods1", "The crows near here sound sick" },
 { "GraveyardWoods2", "You think you see someone in the forest" },
@@ -444,7 +458,7 @@ namespace AmbientText
 { "GraveyardWoods7", "The crypt sends out a ringing sound" },
 { "GraveyardWoods8", "This religious symbol is meant to protect the dead" },
 { "GraveyardWoods9", "" },
-
+//---
 { "GraveyardMountains0", "There are scratches on the rocks" },
 { "GraveyardMountains1", "Stones are used to decorate the graves" },
 { "GraveyardMountains2", "A noise echoes from the crypt" },
@@ -455,7 +469,9 @@ namespace AmbientText
 { "GraveyardMountains7", "A ritual was performed here" },
 { "GraveyardMountains8", "\"Here lies my only love\"" },
 { "GraveyardMountains9", "" },
+//--- ---
 
+//--- ---
 // Coven Climates:
 { "CovenDesert0", "The beldam's presence is striking" },
 { "CovenDesert1", "Twisted patterns have formed in the sand" },
@@ -467,7 +483,7 @@ namespace AmbientText
 { "CovenDesert7", "" },
 { "CovenDesert8", "" },
 { "CovenDesert9", "" },
-
+//---
 { "CovenSwamp0", "There are strange grooves in the mud" },
 { "CovenSwamp1", "The beldam stands facing you" },
 { "CovenSwamp2", "" },
@@ -478,7 +494,7 @@ namespace AmbientText
 { "CovenSwamp7", "" },
 { "CovenSwamp8", "" },
 { "CovenSwamp9", "" },
-
+//---
 { "CovenWoods0", "The trees seem to curl around you" },
 { "CovenWoods1", "" },
 { "CovenWoods2", "You brush a spider off your leg" },
@@ -489,7 +505,7 @@ namespace AmbientText
 { "CovenWoods7", "" },
 { "CovenWoods8", "" },
 { "CovenWoods9", "" },
-
+//---
 { "CovenMountains0", "Its as if they have never moved from this spot" },
 { "CovenMountains1", "The beldam stares without blinking" },
 { "CovenMountains2", "Their chanting echoes in the hills" },
@@ -500,19 +516,21 @@ namespace AmbientText
 { "CovenMountains7", "" },
 { "CovenMountains8", "" },
 { "CovenMountains9", "" },
+//--- ---
 
+//--- ---
 // Temple Climates:
 { "ReligionTempleDesert0", "Pilgrims make the treck here to worship" },
 { "ReligionTempleDesert1", "The temple is accepting visitors" },
 { "ReligionTempleDesert2", "A symbol for The Nine is placed in a window" },
 { "ReligionTempleDesert3", "You feel a concentration of energy" },
-{ "ReligionTempleDesert4", "Donations are said to give luck" },
-{ "ReligionTempleDesert5", "Temples are said to offer cures, even to non members" },
+{ "ReligionTempleDesert4", "Many believe donations confer benefits" },
+{ "ReligionTempleDesert5", "Temples are said to offer cures, even to strangers" },
 { "ReligionTempleDesert6", "You smell ceremonial fire" },
 { "ReligionTempleDesert7", "Some lizards rest near the temple" },
 { "ReligionTempleDesert8", "Caravans keep this place well stocked" },
 { "ReligionTempleDesert9", "The temple has resonated a pattern in the sand" },
-
+//---
 { "ReligionTempleSwamp0", "Devotees place designs in the moss on the temple" },
 { "ReligionTempleSwamp1", "You can see people in the temple" },
 { "ReligionTempleSwamp2", "You feel a rush of energy" },
@@ -523,7 +541,7 @@ namespace AmbientText
 { "ReligionTempleSwamp7", "The dirt around the temple is forming a pattern" },
 { "ReligionTempleSwamp8", "Songbirds adorn the temple" },
 { "ReligionTempleSwamp9", "" },
-
+//---
 { "ReligionTempleWoods0", "There are religious markings on the trees" },
 { "ReligionTempleWoods1", "Someone has whittled a religious statue" },
 { "ReligionTempleWoods2", "Woodland animals rest near the temple" },
@@ -534,7 +552,7 @@ namespace AmbientText
 { "ReligionTempleWoods7", "" },
 { "ReligionTempleWoods8", "" },
 { "ReligionTempleWoods9", "You feel a swell of energy" },
-
+//---
 { "ReligionTempleMountains0", "You feel a focus of energy" },
 { "ReligionTempleMountains1", "The rocks have religious markings" },
 { "ReligionTempleMountains2", "There are prayer sites in the surrounding hills" },
@@ -545,7 +563,9 @@ namespace AmbientText
 { "ReligionTempleMountains7", "" },
 { "ReligionTempleMountains8", "" },
 { "ReligionTempleMountains9", "" },
+//--- ---
 
+//--- ---
 //Cult Climates:
 { "ReligionCultDesert0", "A discreet place to practice dark rituals" },
 { "ReligionCultDesert1", "Thick smoke pollutes the air" },
@@ -557,7 +577,7 @@ namespace AmbientText
 { "ReligionCultDesert7", "" },
 { "ReligionCultDesert8", "" },
 { "ReligionCultDesert9", "" },
-
+//---
 { "ReligionCultSwamp0", "Truely zealous devotees congregate here" },
 { "ReligionCultSwamp1", "The moss is creeping up the rocks" },
 { "ReligionCultSwamp2", "There's some discoloured smoke rising" },
@@ -568,7 +588,7 @@ namespace AmbientText
 { "ReligionCultSwamp7", "" },
 { "ReligionCultSwamp8", "" },
 { "ReligionCultSwamp9", "" },
-
+//---
 { "ReligionCultWoods0", "A sickly smoke drifts nearby" },
 { "ReligionCultWoods1", "Not much grows here" },
 { "ReligionCultWoods2", "The crows sound haggard" },
@@ -579,10 +599,10 @@ namespace AmbientText
 { "ReligionCultWoods7", "" },
 { "ReligionCultWoods8", "" },
 { "ReligionCultWoods9", "" },
-
-{ "ReligionCultMountains0", "Fanatics are intoxicated by The Divines" },
+//---
+{ "ReligionCultMountains0", "Fanatics are intoxicated by ethereal power" },
 { "ReligionCultMountains1", "" },
-{ "ReligionCultMountains2", "There are bug carcasses littered about" },
+{ "ReligionCultMountains2", "Bug carcasses are scattered in a pattern" },
 { "ReligionCultMountains3", "The air has changed" },
 { "ReligionCultMountains4", "The ground rumbles slightly" },
 { "ReligionCultMountains5", "" },
@@ -590,7 +610,9 @@ namespace AmbientText
 { "ReligionCultMountains7", "" },
 { "ReligionCultMountains8", "" },
 { "ReligionCultMountains9", "" },
+//--- ---
 
+//--- ---
 // Dungeon Climates:
 { "DungeonLabyrinthDesert0", "A hot gust of wind burns your eyes" },
 { "DungeonLabyrinthDesert1", "The ground writhes and devours all the fallen" },
@@ -598,11 +620,11 @@ namespace AmbientText
 { "DungeonLabyrinthDesert3", "The sand feels like molten blades" },
 { "DungeonLabyrinthDesert4", "You hear horrible sounds underground" },
 { "DungeonLabyrinthDesert5", "The wildlife stays far from here" },
-{ "DungeonLabyrinthDesert6", "The sand is coarse and discolored" },
+{ "DungeonLabyrinthDesert6", "The plants are spiked and tough" },
 { "DungeonLabyrinthDesert7", "A religious item is stained in blood" },
 { "DungeonLabyrinthDesert8", "Pray the desert consumes this place" },
-{ "DungeonLabyrinthDesert9", "Theres a deathly howl coming from the deep" },
-
+{ "DungeonLabyrinthDesert9", "There's a deathly howl coming from the deep" },
+//---
 { "DungeonLabyrinthSwamp0", "The dirt near the dungeon is sizzling and hissing" },
 { "DungeonLabyrinthSwamp1", "The wretched stench of death is powerful" },
 { "DungeonLabyrinthSwamp2", "The worms are fat and sickly" },
@@ -613,7 +635,7 @@ namespace AmbientText
 { "DungeonLabyrinthSwamp7", "Your mouth fills with rot as you breathe" },
 { "DungeonLabyrinthSwamp8", "" },
 { "DungeonLabyrinthSwamp9", "A body is mostly consumed in mud" },
-
+//---
 { "DungeonLabyrinthWoods0", "There are scratches on the trees" },
 { "DungeonLabyrinthWoods1", "The branches are twisted like hooks" },
 { "DungeonLabyrinthWoods2", "The trees creak and moan" },
@@ -624,18 +646,20 @@ namespace AmbientText
 { "DungeonLabyrinthWoods7", "You feel the suffering inflicted here" },
 { "DungeonLabyrinthWoods8", "You hear something cry out in death" },
 { "DungeonLabyrinthWoods9", "Most don't make it out alive" },
-
+//---
 { "DungeonLabyrinthMountains0", "Screams echo off the mountains and hit your ear" },
 { "DungeonLabyrinthMountains1", "Blood is shed on the rocks" },
 { "DungeonLabyrinthMountains2", "The flies leech your blood" },
 { "DungeonLabyrinthMountains3", "The plants are dying" },
 { "DungeonLabyrinthMountains4", "Those marks aren't human" },
-{ "DungeonLabyrinthMountains5", "The corpses are left by scavengers" },
+{ "DungeonLabyrinthMountains5", "The corpses are deserted by scavengers" },
 { "DungeonLabyrinthMountains6", "There are few capable of surviving this place" },
 { "DungeonLabyrinthMountains7", "The thin air is noxious and painful" },
 { "DungeonLabyrinthMountains8", "" },
 { "DungeonLabyrinthMountains9", "" },
+//--- ---
 
+//--- ---
 { "DungeonKeepDesert0", "A vulture circles overhead" },
 { "DungeonKeepDesert1", "The sand rolls over some bones" },
 { "DungeonKeepDesert2", "A gnarled lizard scurries from the dungeon door" },
@@ -646,7 +670,7 @@ namespace AmbientText
 { "DungeonKeepDesert7", "Animals scurry away carrying bones" },
 { "DungeonKeepDesert8", "" },
 { "DungeonKeepDesert9", "" },
-
+//---
 { "DungeonKeepSwamp0", "Snakes writhe around rusted armor" },
 { "DungeonKeepSwamp1", "Bugs swarm your eyes and ears" },
 { "DungeonKeepSwamp2", "There seems to be a grave in the mud" },
@@ -657,7 +681,7 @@ namespace AmbientText
 { "DungeonKeepSwamp7", "" },
 { "DungeonKeepSwamp8", "You think you hear a shriek" },
 { "DungeonKeepSwamp9", "" },
-
+//---
 { "DungeonKeepWoods0", "The leaves drip an oily substance" },
 { "DungeonKeepWoods1", "Bugs crawl out of a skull" },
 { "DungeonKeepWoods2", "The trees are dead and dried out" },
@@ -668,7 +692,7 @@ namespace AmbientText
 { "DungeonKeepWoods7", "A root seems to grab your foot" },
 { "DungeonKeepWoods8", "" },
 { "DungeonKeepWoods9", "" },
-
+//---
 { "DungeonKeepMountains0", "The plant life is sparse" },
 { "DungeonKeepMountains1", "Mountain stones are used to commemorate the dead" },
 { "DungeonKeepMountains2", "A religious symbol has some dead flowers next to it" },
@@ -679,7 +703,9 @@ namespace AmbientText
 { "DungeonKeepMountains7", "You can't get a full breath of air" },
 { "DungeonKeepMountains8", "Something was killed here" },
 { "DungeonKeepMountains9", "" },
+//--- ---
 
+//--- ---
 { "DungeonRuinDesert0", "An old axe head has been dulled in the sand" },
 { "DungeonRuinDesert1", "The sand is coarser than usual" },
 { "DungeonRuinDesert2", "The bugs scurry away as you approach" },
@@ -690,7 +716,7 @@ namespace AmbientText
 { "DungeonRuinDesert7", "There is an air current from the dungeon" },
 { "DungeonRuinDesert8", "" },
 { "DungeonRuinDesert9", "The doorway is worn and scuffed" },
-
+//---
 { "DungeonRuinSwamp0", "Tracks lead into the dungeon" },
 { "DungeonRuinSwamp1", "The door is rotting off its hinges" },
 { "DungeonRuinSwamp2", "A jawbone sticks out of the mud" },
@@ -701,7 +727,7 @@ namespace AmbientText
 { "DungeonRuinSwamp7", "The swamp air is particularly thick" },
 { "DungeonRuinSwamp8", "The entrance door jostles in the breeze" },
 { "DungeonRuinSwamp9", "A faded potion recipe is tucked under a rock" },
-
+//---
 { "DungeonRuinWoods0", "A memorial site has been erected in the woods" },
 { "DungeonRuinWoods1", "A crow caws and flys away" },
 { "DungeonRuinWoods2", "The trees seem to reach for you" },
@@ -712,7 +738,7 @@ namespace AmbientText
 { "DungeonRuinWoods7", "Wind rustles the leaves like a whisper" },
 { "DungeonRuinWoods8", "" },
 { "DungeonRuinWoods9", "" },
-
+//---
 { "DungeonRuinMountains0", "Religious symbols are freshly painted on the rocks" },
 { "DungeonRuinMountains1", "A rock mound is used as a makeshift grave" },
 { "DungeonRuinMountains2", "Only spiky grass grows easily here" },
@@ -723,6 +749,7 @@ namespace AmbientText
 { "DungeonRuinMountains7", "A bat was cooked and eaten" },
 { "DungeonRuinMountains8", "" },
 { "DungeonRuinMountains9", "The mountain peaks loom over you" },
+//--- ---
 
 
             #endregion
@@ -735,390 +762,391 @@ namespace AmbientText
 { "NoneDayClear2", "A beautiful day to travel" },
 { "NoneDayClear3", "You can feel the sun on some exposed skin" },
 { "NoneDayClear4", "You watch your shadow creep along the landscape" },
-
+//---
 { "NoneNightClear0", "The stars are endless" },
 { "NoneNightClear1", "The tales of the Magna Ge come to mind" },
-{ "NoneNightClear2", "You feel small at the expanse of stars" },
+{ "NoneNightClear2", "You feel small next to the expanse of stars" },
 { "NoneNightClear3", "The moons remind you of Baar Dau" },
 { "NoneNightClear4", "Masser and Secunda illuminate your path" },
-
+//---
 { "NoneDayCloudy0", "The cloud cover shields the suns rays" },
 { "NoneDayCloudy1", "Strong winds move the clouds" },
 { "NoneDayCloudy2", "" },
 { "NoneDayCloudy3", "" },
 { "NoneDayCloudy4", "" },
-
+//---
 { "NoneNightCloudy0", "It is difficult to travel without some moonlight" },
 { "NoneNightCloudy1", "The darkness cloaks some movement" },
 { "NoneNightCloudy2", "" },
 { "NoneNightCloudy3", "" },
 { "NoneNightCloudy4", "" },
-
+//---
 { "NoneDayRainy0", "A bug scurries out from under your footstep" },
 { "NoneDayRainy1", "Tracks here suggest a recent ambush." },
 { "NoneDayRainy2", "" },
 { "NoneDayRainy3", "" },
 { "NoneDayRainy4", "" },
-
+//---
 { "NoneNightRainy0", "A miserable night for travel" },
 { "NoneNightRainy1", "You feel a cold stream down your neck" },
 { "NoneNightRainy2", "The drops fall in a rhythm" },
 { "NoneNightRainy3", "" },
 { "NoneNightRainy4", "" },
-
+//---
 { "NoneDaySnowy0", "There's evidence of a recent camp here." },
 { "NoneDaySnowy1", "The shining snow nearly blinds you" },
-{ "NoneDaySnowy2", "" },
-{ "NoneDaySnowy3", "" },
+{ "NoneDaySnowy2", "The cold wind stings your face" },
+{ "NoneDaySnowy3", "You shake some snow off your head" },
 { "NoneDaySnowy4", "" },
-
+//---
 { "NoneNightSnowy0", "Snowfall and darkness cover your tracks" },
-{ "NoneNightSnowy1", "" },
+{ "NoneNightSnowy1", "Your fingers feel numb" },
 { "NoneNightSnowy2", "" },
 { "NoneNightSnowy3", "" },
 { "NoneNightSnowy4", "" },
 
-
+//--- ---
 // City Weather:
 { "TownCityDayClear0", "You see a large shipment being delivered" },
 { "TownCityDayClear1", "Someone is cooking a vegetable stew." },
 { "TownCityDayClear2", "A fresh breeze brushes past you" },
 { "TownCityDayClear3", "" },
 { "TownCityDayClear4", "" },
-
+//---
 { "TownCityNightClear0", "You spot a cat sneaking around the corner" },
 { "TownCityNightClear1", "You hear someone running away" },
 { "TownCityNightClear2", "The smell of burning fireplaces fills the air." },
 { "TownCityNightClear3", "The stars call to all life on Nirn" },
 { "TownCityNightClear4", "" },
-
+//---
 { "TownCityDayCloudy0", "" },
 { "TownCityDayCloudy1", "Someone eyes you over their shoulder" },
 { "TownCityDayCloudy2", "Some children are climbing trees" },
 { "TownCityDayCloudy3", "" },
 { "TownCityDayCloudy4", "" },
-
+//---
 { "TownCityNightCloudy0", "You can hear some of the city night life" },
 { "TownCityNightCloudy1", "" },
 { "TownCityNightCloudy2", "The streetlamps and windows light your path" },
 { "TownCityNightCloudy3", "Cloud cover attracts those who wish to stay hidden" },
 { "TownCityNightCloudy4", "" },
-
+//---
 { "TownCityDayRainy0", "Your cloth feels heavy in the damp air" },
 { "TownCityDayRainy1", "Cityfolk watch the rain from their windows." },
 { "TownCityDayRainy2", "Someone sighs, \"More miserable rain.\"" },
 { "TownCityDayRainy3", "Some children are splashing in a puddle" },
 { "TownCityDayRainy4", "Someone slips in mud and gets laughed at" },
-
+//---
 { "TownCityNightRainy0", "The cityfolk shelter their belongings from the rain" },
 { "TownCityNightRainy1", "Sounds like someone is dealing with a leak" },
 { "TownCityNightRainy2", "You think you hear someone running" },
 { "TownCityNightRainy3", "" },
 { "TownCityNightRainy4", "" },
-
+//---
 { "TownCityDaySnowy0", "The falling snow relaxes you." },
 { "TownCityDaySnowy1", "Some children pretend they're smoking a pipe" },
 { "TownCityDaySnowy2", "The crunch of the snow is satisfying" },
 { "TownCityDaySnowy3", "" },
 { "TownCityDaySnowy4", "" },
-
+//---
 { "TownCityNightSnowy0", "The days footprints are covered partially by the snow" },
 { "TownCityNightSnowy1", "There are some suspicious tracks around that house" },
 { "TownCityNightSnowy2", "You hear roaring fires in the homes" },
 { "TownCityNightSnowy3", "You can hear echoes in the still air" },
 { "TownCityNightSnowy4", "The crunchy snow is loud under your feet" },
 
-
+//--- ---
 // Hamlet Weather:
-{ "TownHamletDayClear0", "The locals stop to greet you" },
+{ "TownHamletDayClear0", "" },
 { "TownHamletDayClear1", "The smell of frying meat whets your appetite" },
 { "TownHamletDayClear2", "One of the locals smiles at you" },
 { "TownHamletDayClear3", "" },
 { "TownHamletDayClear4", "" },
-
+//---
 { "TownHamletNightClear0", "" },
 { "TownHamletNightClear1", "A child peers through their window at the stars" },
 { "TownHamletNightClear2", "Smoke from the chimneys rise into the sky" },
 { "TownHamletNightClear3", "The moonlight provides some illumination" },
 { "TownHamletNightClear4", "You spot a shadow moving in the distance" },
-
+//---
 { "TownHamletDayCloudy0", "A few neighbours are stopping to chat" },
 { "TownHamletDayCloudy1", "Some villagers glance in your direction" },
 { "TownHamletDayCloudy2", "Someone calls out, \"Fresh brewed ale!\"" },
 { "TownHamletDayCloudy3", "" },
 { "TownHamletDayCloudy4", "" },
-
+//---
 { "TownHamletNightCloudy0", "You keep an eye on the dark alleys" },
 { "TownHamletNightCloudy1", "The cloud cover creates moving shadows" },
 { "TownHamletNightCloudy2", "" },
 { "TownHamletNightCloudy3", "" },
 { "TownHamletNightCloudy4", "" },
-
+//---
 { "TownHamletDayRainy0", "" },
 { "TownHamletDayRainy1", "A woman indulges in a gifted flower" },
 { "TownHamletDayRainy2", "A merchant tries to sell the last of his wares" },
 { "TownHamletDayRainy3", "People peer at you out of their windows" },
 { "TownHamletDayRainy4", "A man slips and falls and people walk past" },
-
+//---
 { "TownHamletNightRainy0", "" },
 { "TownHamletNightRainy1", "A tavern will ease the gloom" },
 { "TownHamletNightRainy2", "The rain masks your footsteps" },
 { "TownHamletNightRainy3", "Someone moves in the distance" },
 { "TownHamletNightRainy4", "" },
-
+//---
 { "TownHamletDaySnowy0", "An old man with a cane nods at you" },
 { "TownHamletDaySnowy1", "The villagers bundle their clothing for warmth" },
 { "TownHamletDaySnowy2", "Some kids are throwing snowballs at each other" },
-{ "TownHamletDaySnowy3", "Someone attempted to form snow into the shape of a man" },
+{ "TownHamletDaySnowy3", "Someone has formed snow into the shape of a man" },
 { "TownHamletDaySnowy4", "" },
-
+//---
 { "TownHamletNightSnowy0", "There's sure to be a warm fire and cold drink here" },
 { "TownHamletNightSnowy1", "The crunch of your footsteps echo off the houses" },
 { "TownHamletNightSnowy2", "The snow will soon cover everything in sight" },
 { "TownHamletNightSnowy3", "A horse shakes some snow off its head" },
 { "TownHamletNightSnowy4", "" },
 
+//--- ---
 // Village Weather:
 { "TownVillageDayClear0", "A soft breeze flutters some fabric" },
 { "TownVillageDayClear1", "You see some travellers in the distance" },
 { "TownVillageDayClear2", "A cat lays in the shade" },
 { "TownVillageDayClear3", "A tavern worker is talking to the locals" },
 { "TownVillageDayClear4", "A shipment of goods is tended to" },
-
+//---
 { "TownVillageNightClear0", "The night sky inspires the adventurous" },
 { "TownVillageNightClear1", "Young children gaze at the constellations from their windows" },
 { "TownVillageNightClear2", "" },
 { "TownVillageNightClear3", "" },
 { "TownVillageNightClear4", "" },
-
+//---
 { "TownVillageDayCloudy0", "You smell roast vegetables and beef" },
 { "TownVillageDayCloudy1", "An old man is teaching his grandchildren how to identify plants" },
 { "TownVillageDayCloudy2", "A young one says \"you smell!\" and runs off" },
-{ "TownVillageDayCloudy3", "" },
+{ "TownVillageDayCloudy3", "The locals stop to greet you" },
 { "TownVillageDayCloudy4", "" },
-
+//---
 { "TownVillageNightCloudy0", "You hear some soft chatter in the homes" },
 { "TownVillageNightCloudy1", "The chimney smoke seems to touch the clouds" },
 { "TownVillageNightCloudy2", "The sparse light helps you navigate these streets" },
 { "TownVillageNightCloudy3", "" },
 { "TownVillageNightCloudy4", "" },
-
+//---
 { "TownVillageDayRainy0", "Many of the locals are keeping out of the rain" },
 { "TownVillageDayRainy1", "A man slips and is helped to his feet by the locals" },
 { "TownVillageDayRainy2", "" },
 { "TownVillageDayRainy3", "" },
 { "TownVillageDayRainy4", "" },
-
-{ "TownVillageNightRainy0", "You hope to find what you need here" },
+//---
+{ "TownVillageNightRainy0", "The rain taps on the rooftops" },
 { "TownVillageNightRainy1", "A warm, dry bed would be welcome" },
 { "TownVillageNightRainy2", "" },
 { "TownVillageNightRainy3", "" },
 { "TownVillageNightRainy4", "" },
-
+//---
 { "TownVillageDaySnowy0", "You can hear some children playing in the snow" },
 { "TownVillageDaySnowy1", "The locals help each other clear the snow" },
 { "TownVillageDaySnowy2", "An old man sits pondering life" },
 { "TownVillageDaySnowy3", "A shipment of goods has arrived" },
 { "TownVillageDaySnowy4", "" },
-
+//---
 { "TownVillageNightSnowy0", "You're thankful to be around some civilization" },
 { "TownVillageNightSnowy1", "The promise of warmth draws you in" },
 { "TownVillageNightSnowy2", "The snow may bury this whole town" },
 { "TownVillageNightSnowy3", "" },
 { "TownVillageNightSnowy4", "" },
 
-
+//--- ---
 // Dungeon Weather:
 { "DungeonLabyrinthDayClear0", "The sun can't cleanse a place so evil" },
 { "DungeonLabyrinthDayClear1", "The Gods weep at the sight of this place" },
 { "DungeonLabyrinthDayClear2", "" },
 { "DungeonLabyrinthDayClear3", "" },
 { "DungeonLabyrinthDayClear4", "" },
-
+//---
 { "DungeonLabyrinthNightClear0", "This place feels dark and deadly" },
 { "DungeonLabyrinthNightClear1", "You hear echoes of death" },
 { "DungeonLabyrinthNightClear2", "" },
 { "DungeonLabyrinthNightClear3", "" },
 { "DungeonLabyrinthNightClear4", "" },
-
+//---
 { "DungeonLabyrinthDayCloudy0", "Stale air bursts forth like a breath" },
 { "DungeonLabyrinthDayCloudy1", "A grotesque bug hisses and flies at you" },
 { "DungeonLabyrinthDayCloudy2", "The clouds billow and writhe" },
 { "DungeonLabyrinthDayCloudy3", "" },
 { "DungeonLabyrinthDayCloudy4", "" },
-
-{ "DungeonLabyrinthNightCloudy0", "Not even moonlight falls on this hellish place" },
+//---
+{ "DungeonLabyrinthNightCloudy0", "Little moonlight falls on this hellish place" },
 { "DungeonLabyrinthNightCloudy1", "Cloud cover cloaks the dead" },
 { "DungeonLabyrinthNightCloudy2", "Darkness breaches the edge of your vision" },
 { "DungeonLabyrinthNightCloudy3", "" },
 { "DungeonLabyrinthNightCloudy4", "" },
-
+//---
 { "DungeonLabyrinthDayRainy0", "The rain cant wash away the filth" },
 { "DungeonLabyrinthDayRainy1", "The puddles are dirty and greasy" },
 { "DungeonLabyrinthDayRainy2", "The rain intensifies the stench" },
 { "DungeonLabyrinthDayRainy3", "" },
 { "DungeonLabyrinthDayRainy4", "" },
-
-{ "DungeonLabyrinthNightRainy0", "The rain hides the sounds of footsteps" },
+//---
+{ "DungeonLabyrinthNightRainy0", "The rain hides the sound of footsteps" },
 { "DungeonLabyrinthNightRainy1", "Any amount of rainfall is preferable to this hellhole" },
 { "DungeonLabyrinthNightRainy2", "" },
 { "DungeonLabyrinthNightRainy3", "The smell is unlike anything you've experienced" },
 { "DungeonLabyrinthNightRainy4", "" },
-
+//---
 { "DungeonLabyrinthDaySnowy0", "Carnage lays just beneath this peaceful snow covering" },
 { "DungeonLabyrinthDaySnowy1", "You can just make out dead figures in the snow" },
 { "DungeonLabyrinthDaySnowy2", "Twisted shapes form in the dirty snow" },
 { "DungeonLabyrinthDaySnowy3", "The glare off the snow seeks to blind you" },
 { "DungeonLabyrinthDaySnowy4", "" },
-
-{ "DungeonLabyrinthNightSnowy0", "The snow shatters like glass as you get closer" },
+//---
+{ "DungeonLabyrinthNightSnowy0", "The snow shatters like glass as you move" },
 { "DungeonLabyrinthNightSnowy1", "A shiver runs up your back" },
-{ "DungeonLabyrinthNightSnowy2", "The echo of the snow crunching surrounds you" },
-{ "DungeonLabyrinthNightSnowy3", "" },
+{ "DungeonLabyrinthNightSnowy2", "You hear something behind you when you move" },
+{ "DungeonLabyrinthNightSnowy3", "The cold, sharp air hurts to breath" },
 { "DungeonLabyrinthNightSnowy4", "" },
 
-
+//--- ---
 { "DungeonKeepDayClear0", "The day darkens near here" },
 { "DungeonKeepDayClear1", "The suns rays fall onto this dreary place" },
 { "DungeonKeepDayClear2", "" },
 { "DungeonKeepDayClear3", "" },
 { "DungeonKeepDayClear4", "" },
-
+//---
 { "DungeonKeepNightClear0", "The stars offer a warning of this place" },
 { "DungeonKeepNightClear1", "Eery moonlight illuminates the area" },
 { "DungeonKeepNightClear2", "" },
 { "DungeonKeepNightClear3", "" },
 { "DungeonKeepNightClear4", "" },
-
+//---
 { "DungeonKeepDayCloudy0", "You can smell rotting flesh" },
 { "DungeonKeepDayCloudy1", "The clouds twist above the dungeon" },
 { "DungeonKeepDayCloudy2", "" },
 { "DungeonKeepDayCloudy3", "" },
 { "DungeonKeepDayCloudy4", "" },
-
+//---
 { "DungeonKeepNightCloudy0", "The damp air is sickly" },
 { "DungeonKeepNightCloudy1", "Sounds echo and turn sinister" },
 { "DungeonKeepNightCloudy2", "" },
 { "DungeonKeepNightCloudy3", "" },
 { "DungeonKeepNightCloudy4", "" },
-
+//---
 { "DungeonKeepDayRainy0", "It smells like the dead" },
 { "DungeonKeepDayRainy1", "The rain feels heavy and grimy" },
 { "DungeonKeepDayRainy2", "A bleak day to tread these grounds" },
 { "DungeonKeepDayRainy3", "" },
 { "DungeonKeepDayRainy4", "" },
-
+//---
 { "DungeonKeepNightRainy0", "The rain is still preferable to this place" },
 { "DungeonKeepNightRainy1", "Steam rises off the ground near the dungeon" },
 { "DungeonKeepNightRainy2", "The rain tastes foul" },
 { "DungeonKeepNightRainy3", "" },
 { "DungeonKeepNightRainy4", "" },
-
+//---
 { "DungeonKeepDaySnowy0", "Strange figures jut out of the ground, covered by snow" },
 { "DungeonKeepDaySnowy1", "The daylight shimmers off the snow into your eyes" },
 { "DungeonKeepDaySnowy2", "Large footprints litter the snow" },
 { "DungeonKeepDaySnowy3", "" },
 { "DungeonKeepDaySnowy4", "" },
-
+//---
 { "DungeonKeepNightSnowy0", "The entrance may get snowed in" },
 { "DungeonKeepNightSnowy1", "The cold air from the dungeon is oppressive" },
 { "DungeonKeepNightSnowy2", "A spell was used here" },
 { "DungeonKeepNightSnowy3", "" },
 { "DungeonKeepNightSnowy4", "" },
 
-
+//--- ---
 { "DungeonRuinDayClear0", "The flowers look unwell here" },
 { "DungeonRuinDayClear1", "The Divines light shines on this sad place" },
 { "DungeonRuinDayClear2", "" },
 { "DungeonRuinDayClear3", "" },
 { "DungeonRuinDayClear4", "" },
-
+//---
 { "DungeonRuinNightClear0", "The bugs buzz around your ears" },
 { "DungeonRuinNightClear1", "A dark figure scampers away" },
 { "DungeonRuinNightClear2", "" },
 { "DungeonRuinNightClear3", "" },
 { "DungeonRuinNightClear4", "" },
-
+//---
 { "DungeonRuinDayCloudy0", "The wind wrestles you as you move" },
 { "DungeonRuinDayCloudy1", "The clouds form a weird pattern" },
 { "DungeonRuinDayCloudy2", "" },
 { "DungeonRuinDayCloudy3", "" },
 { "DungeonRuinDayCloudy4", "" },
-
+//---
 { "DungeonRuinNightCloudy0", "The air around the dungeon has a fine mist" },
 { "DungeonRuinNightCloudy1", "The clouds look discoloured" },
 { "DungeonRuinNightCloudy2", "" },
 { "DungeonRuinNightCloudy3", "" },
 { "DungeonRuinNightCloudy4", "" },
-
+//---
 { "DungeonRuinDayRainy0", "The air is rather stale" },
 { "DungeonRuinDayRainy1", "There's a rusted helmet with a hole in it" },
 { "DungeonRuinDayRainy2", "The drops are heavy on your shoulder" },
 { "DungeonRuinDayRainy3", "" },
 { "DungeonRuinDayRainy4", "" },
-
+//---
 { "DungeonRuinNightRainy0", "The air smells a little foul" },
 { "DungeonRuinNightRainy1", "It feels like you're being tapped on the shoulder" },
 { "DungeonRuinNightRainy2", "" },
 { "DungeonRuinNightRainy3", "" },
 { "DungeonRuinNightRainy4", "" },
-
+//---
 { "DungeonRuinDaySnowy0", "An adventurers horse was parked here" },
 { "DungeonRuinDaySnowy1", "The snow covers some animal tracks" },
 { "DungeonRuinDaySnowy2", "" },
 { "DungeonRuinDaySnowy3", "" },
 { "DungeonRuinDaySnowy4", "" },
-
+//---
 { "DungeonRuinNightSnowy0", "The snow hides movement in the distance" },
 { "DungeonRuinNightSnowy1", "A frozen body is buried in the snow" },
 { "DungeonRuinNightSnowy2", "" },
 { "DungeonRuinNightSnowy3", "" },
 { "DungeonRuinNightSnowy4", "" },
 
-
+//--- ---
 // Graveyard Weather:
 { "GraveyardDayClear0", "The plantlife looks sick" },
 { "GraveyardDayClear1", "There seem to be faces in the plantgrowth" },
 { "GraveyardDayClear2", "" },
 { "GraveyardDayClear3", "" },
 { "GraveyardDayClear4", "" },
-
+//---
 { "GraveyardNightClear0", "You hear a distant yell" },
 { "GraveyardNightClear1", "Some animals pick at exposed bones" },
 { "GraveyardNightClear2", "The Gods call lost spirits into the expanse" },
 { "GraveyardNightClear3", "" },
 { "GraveyardNightClear4", "" },
-
+//---
 { "GraveyardDayCloudy0", "The locals say ghosts can be seen in the morning fog" },
 { "GraveyardDayCloudy1", "Shadows move above the clouds" },
 { "GraveyardDayCloudy2", "" },
 { "GraveyardDayCloudy3", "" },
 { "GraveyardDayCloudy4", "" },
-
+//---
 { "GraveyardNightCloudy0", "You smell a rotten stench" },
 { "GraveyardNightCloudy1", "The clouds have picked up speed" },
 { "GraveyardNightCloudy2", "" },
 { "GraveyardNightCloudy3", "" },
 { "GraveyardNightCloudy4", "" },
-
+//---
 { "GraveyardDayRainy0", "Worms are writhing near you" },
 { "GraveyardDayRainy1", "Years of rain has eroded the gravestones" },
 { "GraveyardDayRainy2", "" },
 { "GraveyardDayRainy3", "" },
 { "GraveyardDayRainy4", "" },
-
+//---
 { "GraveyardNightRainy0", "Stale water drips in your eyes" },
 { "GraveyardNightRainy1", "The rain doused a lit torch" },
 { "GraveyardNightRainy2", "There is a small gravestone with a childs toy on it" },
 { "GraveyardNightRainy3", "" },
 { "GraveyardNightRainy4", "" },
-
+//---
 { "GraveyardDaySnowy0", "A shiver runs up your back" },
 { "GraveyardDaySnowy1", "There is some melting snow over a grave" },
 { "GraveyardDaySnowy2", "" },
 { "GraveyardDaySnowy3", "" },
 { "GraveyardDaySnowy4", "" },
-
+//---
 { "GraveyardNightSnowy0", "The wind is colder than usual" },
 { "GraveyardNightSnowy1", "There are strange footsteps in the snow" },
 { "GraveyardNightSnowy2", "" },
@@ -1141,7 +1169,7 @@ namespace AmbientText
 { "NoneDay7", "" },
 { "NoneDay8", "" },
 { "NoneDay9", "" },
-
+//---
 { "NoneNight0", "The night can be dangerous for some" },
 { "NoneNight1", "You think you hear movement behind you" },
 { "NoneNight2", "Shadows shift in the distance" },
@@ -1152,7 +1180,7 @@ namespace AmbientText
 { "NoneNight7", "" },
 { "NoneNight8", "" },
 { "NoneNight9", "" },
-
+//--- ---
 // City Day/Night:
 { "TownCityDay0", "You hear some neighbours arguing" },
 { "TownCityDay1", "You see some freshly chopped wood" },
@@ -1164,7 +1192,7 @@ namespace AmbientText
 { "TownCityDay7", "A resident scowls at you and slams their door" },
 { "TownCityDay8", "An old man is telling a tale" },
 { "TownCityDay9", "Two children run by playing with sticks" },
-
+//---
 { "TownCityNight0", "The cityfolk secure their belongings at night" },
 { "TownCityNight1", "Someone is humming a tune" },
 { "TownCityNight2", "You hear someone fiddling with a lock." },
@@ -1175,7 +1203,7 @@ namespace AmbientText
 { "TownCityNight7", "" },
 { "TownCityNight8", "There is a group of youths talking nearby" },
 { "TownCityNight9", "" },
-
+//--- ---
 // Hamlet Day/Night:
 { "TownHamletDay0", "You see a friendly face" },
 { "TownHamletDay1", "Someone is chopping wood" },
@@ -1187,7 +1215,7 @@ namespace AmbientText
 { "TownHamletDay7", "A horse neighs and scrapes the ground" },
 { "TownHamletDay8", "The children look at you with awe" },
 { "TownHamletDay9", "A merchant tries to get your attention" },
-
+//---
 { "TownHamletNight0", "You hear someone trying a lock." },
 { "TownHamletNight1", "Someone is smoking something" },
 { "TownHamletNight2", "The houses are filled with life and laughter" },
@@ -1198,7 +1226,7 @@ namespace AmbientText
 { "TownHamletNight7", "" },
 { "TownHamletNight8", "" },
 { "TownHamletNight9", "A young boy sneaks out of his house" },
-
+//--- ---
 // Village Day/Night:
 { "TownVillageDay0", "One of the locals smiles at you" },
 { "TownVillageDay1", "Someone calls for a dog in the distance" },
@@ -1210,7 +1238,7 @@ namespace AmbientText
 { "TownVillageDay7", "A child asks a neighbour for some sugar" },
 { "TownVillageDay8", "Local children sprint past you in play" },
 { "TownVillageDay9", "A local is cleaning their window" },
-
+//---
 { "TownVillageNight0", "A pig has gotten into some cabbages" },
 { "TownVillageNight1", "A quiet walk in peaceful streets" },
 { "TownVillageNight2", "You can hear someones fire crackling" },
@@ -1221,7 +1249,7 @@ namespace AmbientText
 { "TownVillageNight7", "A child has left her toy here for the next day" },
 { "TownVillageNight8", "" },
 { "TownVillageNight9", "" },
-
+//--- ---
 // Tavern Day/Night:
 { "TavernDay0", "A few adventurers have just left" },
 { "TavernDay1", "A plate is smashed followed by laughter" },
@@ -1232,7 +1260,7 @@ namespace AmbientText
 { "TavernDay6", "A worker sweeps the entrance" },
 { "TavernDay7", "A man stumbles toward you and falls down" },
 { "TavernDay8", "A drunkard thinks he's your friend" },
-
+//---
 { "TavernNight0", "A drunk figure stumbles off" },
 { "TavernNight1", "You hear the patrons bellowing a tune" },
 { "TavernNight2", "You pass a questionable puddle" },
@@ -1241,7 +1269,7 @@ namespace AmbientText
 { "TavernNight5", "Someone was passed out here recently" },
 { "TavernNight6", "A drunkard has tried the wrong door" },
 { "TavernNight7", "It sounds like a fight has broken out" },
-
+//--- ---
 // Farms Day/Night:
 { "HomeFarmsDay0", "Everyone is out and working" },
 { "HomeFarmsDay1", "They've been working since dawn" },
@@ -1249,13 +1277,13 @@ namespace AmbientText
 { "HomeFarmsDay3", "The animals make their presence known" },
 { "HomeFarmsDay4", "A slight breeze sways the crops" },
 { "HomeFarmsDay5", "One of the workers is jealous of his friends new hoe" },
-
-{ "HomeFarmsNight0", "You can smell some decomposing vegetables" },
+//---
+{ "HomeFarmsNight0", "There are some decomposing vegetables near" },
 { "HomeFarmsNight1", "You smelled this farmstead before you saw it" },
-{ "HomeFarmsNight2", "You hear the animals settling down" },
+{ "HomeFarmsNight2", "The animals are settling down" },
 { "HomeFarmsNight3", "You see some wagon tracks nearby" },
 { "HomeFarmsNight4", "The farmhands have left for the night" },
-
+//--- ---
 // WealthyHomes Day/Night:
 { "HomeWealthyDay0", "The sun shines on the polished metals" },
 { "HomeWealthyDay1", "This person has afforded a comfortable life" },
@@ -1267,14 +1295,14 @@ namespace AmbientText
 { "HomeWealthyDay7", "Even the workers have quality attire" },
 { "HomeWealthyDay8", "You spot a young woman wearing nordic silk" },
 { "HomeWealthyDay9", "The children carry trinkets you've never seen before" },
-
+//---
 { "HomeWealthyNight0", "A thief's dream" },
 { "HomeWealthyNight1", "The residents secure their belongings at night" },
 { "HomeWealthyNight2", "A cat slinks by with a brass bell on its collar" },
 { "HomeWealthyNight3", "These people must pay dearly for protection" },
 { "HomeWealthyNight4", "A pony can be heard nearby" },
 { "HomeWealthyNight5", "A silver caraff is being used as a flower pot" },
-
+//--- ---
 // PoorHomes Day/Night:
 { "HomePoorDay0", "This is a rather depressing area" },
 { "HomePoorDay1", "You watch your step among the droppings" },
@@ -1286,39 +1314,39 @@ namespace AmbientText
 { "HomePoorDay7", "" },
 { "HomePoorDay8", "" },
 { "HomePoorDay9", "" },
-
+//---
 { "HomePoorNight0", "A sneeze is heard from the house" },
 { "HomePoorNight1", "Something doesnt smell good" },
 { "HomePoorNight2", "Stray animals scamper about" },
 { "HomePoorNight3", "You think something was buried here" },
 { "HomePoorNight4", "You hear someone crying" },
-
+//--- ---
 // PlayerShip Day/Night:
 { "HomeYourShipsDay0", "You see some movement in the distance" },
 { "HomeYourShipsDay1", "You hear the wind whipping the sails" },
 { "HomeYourShipsDay2", "" },
 { "HomeYourShipsDay3", "" },
 { "HomeYourShipsDay4", "" },
-
+//---
 { "HomeYourShipsNight0", "The bugs have made their way on board" },
 { "HomeYourShipsNight1", "You can see some city lights" },
 { "HomeYourShipsNight2", "The sails flap lazily in the breeze" },
 { "HomeYourShipsNight3", "" },
 { "HomeYourShipsNight4", "" },
-
+//--- ---
 // Graveyard Day/Night:
 { "GraveyardDay0", "Some decorations wilt on a tombstone" },
 { "GraveyardDay1", "A makeshift grave was dug here" },
 { "GraveyardDay2", "A shovel has been discarded nearby" },
 { "GraveyardDay3", "This engraving is from ages ago" },
 { "GraveyardDay4", "You feel as if you aren't alone" },
-
+//---
 { "GraveyardNight0", "Some fresh flowers rest on a grave" },
 { "GraveyardNight1", "Something is making a thumping noise" },
 { "GraveyardNight2", "Something is running away" },
 { "GraveyardNight3", "Pray the dead stay dead" },
 { "GraveyardNight4", "One of the graves has some fresh turned earth" },
-
+//--- ---
 // Coven Day/Night:
 { "CovenDay0", "There is a bubbling pot" },
 { "CovenDay1", "Some potions are stashed out of the light" },
@@ -1329,7 +1357,7 @@ namespace AmbientText
 { "CovenDay6", "" },
 { "CovenDay7", "" },
 { "CovenDay8", "" },
-
+//---
 { "CovenNight0", "A strange shadow drifts away" },
 { "CovenNight1", "A dark energy lingers here" },
 { "CovenNight2", "Potions glow faintly under some cloth" },
@@ -1339,7 +1367,7 @@ namespace AmbientText
 { "CovenNight6", "An arrid smoke lingers" },
 { "CovenNight7", "" },
 { "CovenNight8", "" },
-
+//--- ---
 // Temple Day/Night:
 { "ReligionTempleDay0", "The residents recite religious texts" },
 { "ReligionTempleDay1", "Some children are wearing ceremonial garb" },
@@ -1351,7 +1379,7 @@ namespace AmbientText
 { "ReligionTempleDay7", "An elder is reading a holy book" },
 { "ReligionTempleDay8", "The worshippers seem to float as they walk" },
 { "ReligionTempleDay9", "A woman is stitching some religious attire" },
-
+//---
 { "ReligionTempleNight0", "A pipe is being smoked" },
 { "ReligionTempleNight1", "You hear people chanting" },
 { "ReligionTempleNight2", "The windows have religious markings" },
@@ -1362,20 +1390,20 @@ namespace AmbientText
 { "ReligionTempleNight7", "Chanting can be heard \"Worship the Eight\"" },
 { "ReligionTempleNight8", "Chanting can be heard \"Do your duty\"" },
 { "ReligionTempleNight9", "Chanting can be heard \"Heed the commands of the Saints and Priests\"" },
-
+//--- ---
 // Cult Day/Night:
 { "ReligionCultDay0", "The day illuminates all deeds" },
 { "ReligionCultDay1", "Special herbs are being burned" },
 { "ReligionCultDay2", "The years have aged this place" },
 { "ReligionCultDay3", "You hear some magic" },
 { "ReligionCultDay4", "This building is contorted" },
-
+//---
 { "ReligionCultNight0", "A low humming can be heard" },
 { "ReligionCultNight1", "An unusual smell lingers in the air" },
 { "ReligionCultNight2", "Many voices stop at once" },
 { "ReligionCultNight3", "A distant laugh echoes past" },
 { "ReligionCultNight4", "A blade is being sharpened" },
-
+//--- ---
 // Dungeon Day/Night:
 { "DungeonLabyrinthDay0", "The daylight reveals blood stains" },
 { "DungeonLabyrinthDay1", "There is a shredded cloak on the ground" },
@@ -1387,7 +1415,7 @@ namespace AmbientText
 { "DungeonLabyrinthDay7", "You feel a strange draw to the dungeon entrance" },
 { "DungeonLabyrinthDay8", "Anguish shapes the minds of those who enter" },
 { "DungeonLabyrinthDay9", "A Gods forsaken Oblivion hole" },
-
+//---
 { "DungeonLabyrinthNight0", "You feel bones underfoot" },
 { "DungeonLabyrinthNight1", "Ghostly warnings haunt your ears" },
 { "DungeonLabyrinthNight2", "This place tests the resolve of mortals" },
@@ -1398,7 +1426,7 @@ namespace AmbientText
 { "DungeonLabyrinthNight7", "You hear a desperate cry from the deep" },
 { "DungeonLabyrinthNight8", "The entrance is a blinding darkness" },
 { "DungeonLabyrinthNight9", "" },
-
+//--- ---
 
 { "DungeonKeepDay0", "Ritual markings are to protect those who tread" },
 { "DungeonKeepDay1", "Many adventurers fall pray to these depths" },
@@ -1410,7 +1438,7 @@ namespace AmbientText
 { "DungeonKeepDay7", "There is a ripped cloak on the ground" },
 { "DungeonKeepDay8", "There is a great sadness here" },
 { "DungeonKeepDay9", "An inscription reads \"may The Divines protect you\"" },
-
+//---
 { "DungeonKeepNight0", "You think you hear something below" },
 { "DungeonKeepNight1", "Only the hearty survive" },
 { "DungeonKeepNight2", "The air is deadly still" },
@@ -1421,7 +1449,7 @@ namespace AmbientText
 { "DungeonKeepNight7", "The darkness hides the entrance" },
 { "DungeonKeepNight8", "" },
 { "DungeonKeepNight9", "" },
-
+//--- ---
 
 { "DungeonRuinDay0", "Adventurers have been here recently" },
 { "DungeonRuinDay1", "Someone was camping nearby" },
@@ -1433,7 +1461,7 @@ namespace AmbientText
 { "DungeonRuinDay7", "What danger resides here?" },
 { "DungeonRuinDay8", "You think you hear something" },
 { "DungeonRuinDay9", "A broken sword is discarded nearby" },
-
+//---
 { "DungeonRuinNight0", "There's an odd sound..." },
 { "DungeonRuinNight1", "The air is musty" },
 { "DungeonRuinNight2", "Some bats squeak overhead" },
@@ -1444,10 +1472,12 @@ namespace AmbientText
 { "DungeonRuinNight7", "" },
 { "DungeonRuinNight8", "" },
 { "DungeonRuinNight9", "" },
+//--- ---
 
             #endregion
 
             #region Dungeon texts:
+
 
 
 // Dungeon: Crypt
