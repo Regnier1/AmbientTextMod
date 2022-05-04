@@ -40,17 +40,11 @@ namespace AmbientText
         {
             Debug.Log("Begin mod init: AmbientText");
 
-            /*
             ModSettings settings = mod.GetSettings();
-            AmbientTextEnabled = settings.GetBool("Modules", "ambientText");
-            if (AmbientTextEnabled && false)
-            {
-                textChance          = mod.GetSettings().GetInt("AmbientText", "textChance");
-                stdInterval         = mod.GetSettings().GetInt("AmbientText", "interval");
-                postTextInterval    = mod.GetSettings().GetInt("AmbientText", "postTextInterval");
-                textDisplayTime     = mod.GetSettings().GetInt("AmbientText", "textDisplayTime");
-            }
-            */
+            textChance          = mod.GetSettings().GetInt("AmbientText", "textChance");
+            stdInterval         = mod.GetSettings().GetInt("AmbientText", "interval");
+            postTextInterval    = mod.GetSettings().GetInt("AmbientText", "postTextInterval");
+            textDisplayTime     = mod.GetSettings().GetInt("AmbientText", "textDisplayTime");
 
             mod.IsReady = true;
             Debug.Log("Finished mod init: AmbientText");
@@ -64,28 +58,25 @@ namespace AmbientText
 
         void Update()
         {
-            if (true) //TODO: AmbientTextEnabled)
+            PlayerEnterExit playerEnterExit = GameManager.Instance.PlayerEnterExit;
+            if (!DaggerfallUnity.Instance.IsReady || !playerEnterExit || GameManager.IsGamePaused)
+                return;
+
+            // Ambient text module.
+            if (!playerEnterExit.IsPlayerInsideBuilding && Time.unscaledTime > lastTickTime + tickTimeInterval)
             {
-                PlayerEnterExit playerEnterExit = GameManager.Instance.PlayerEnterExit;
-                if (!DaggerfallUnity.Instance.IsReady || !playerEnterExit || GameManager.IsGamePaused)
-                    return;
+                lastTickTime = Time.unscaledTime;
+                tickTimeInterval = stdInterval;
+                //Debug.Log("tick");
 
-                // Ambient text module.
-                if (!playerEnterExit.IsPlayerInsideBuilding && Time.unscaledTime > lastTickTime + tickTimeInterval)
+                if (Dice100.SuccessRoll(textChance))
                 {
-                    lastTickTime = Time.unscaledTime;
-                    tickTimeInterval = stdInterval;
-                    //Debug.Log("tick");
-
-                    if (Dice100.SuccessRoll(textChance))
+                    string textMsg = SelectAmbientText();
+                    if (!string.IsNullOrWhiteSpace(textMsg))
                     {
-                        string textMsg = SelectAmbientText();
-                        if (!string.IsNullOrWhiteSpace(textMsg))
-                        {
-                            Debug.Log(textMsg);
-                            DaggerfallUI.AddHUDText(textMsg, textDisplayTime);
-                            tickTimeInterval = postTextInterval;
-                        }
+                        Debug.Log(textMsg);
+                        DaggerfallUI.AddHUDText(textMsg, textDisplayTime);
+                        tickTimeInterval = postTextInterval;
                     }
                 }
             }

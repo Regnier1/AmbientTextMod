@@ -1,5 +1,5 @@
 {
-    "Version": null,
+    "Version": "",
     "Sections": [
         {
             "Name": "AmbientText",
@@ -9,7 +9,7 @@
                 {
                     "Min": 0,
                     "Max": 100,
-                    "Value": 20,
+                    "Value": 30,
                     "Name": "textChance",
                     "Description": "Chance % of selecting any ambient text each interval",
                     "$version": "v1",
@@ -44,5 +44,6 @@
                 }
             ],
             "$version": "v1"
+        }
     ]
 }
