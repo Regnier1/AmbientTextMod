@@ -1,5 +1,5 @@
 // Project:         AmbientText mod for Daggerfall Unity (http://www.dfworkshop.net)
-// Copyright:       Copyright (C) 2020 Regnier
+// Copyright:       Copyright (C) 2022 Regnier
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
 // Author:          Hazelnut
 
@@ -16,8 +16,7 @@ namespace AmbientText
 {
     public class AmbientTextMod : MonoBehaviour
     {
-
-        public bool AmbientTextEnabled { get; private set; }
+        public static AmbientTextMod Instance { get; private set; }
 
         static Mod mod;
         float lastTickTime;
@@ -33,7 +32,17 @@ namespace AmbientText
         {
             mod = initParams.Mod;
             var go = new GameObject(mod.Title);
-            go.AddComponent<AmbientTextMod>();
+            Instance = go.AddComponent<AmbientTextMod>();
+            mod.LoadSettingsCallback = Instance.LoadSettings;
+        }
+
+        // Load dynamic settings that can be changed at runtime.
+        void LoadSettings(ModSettings settings, ModSettingsChange change)
+        {
+            textChance = settings.GetInt("AmbientText", "textChance");
+            stdInterval = settings.GetInt("AmbientText", "interval");
+            postTextInterval = settings.GetInt("AmbientText", "postTextInterval");
+            textDisplayTime = settings.GetInt("AmbientText", "textDisplayTime");
         }
 
         void Awake()
@@ -41,10 +50,9 @@ namespace AmbientText
             Debug.Log("Begin mod init: AmbientText");
 
             ModSettings settings = mod.GetSettings();
-            textChance          = mod.GetSettings().GetInt("AmbientText", "textChance");
-            stdInterval         = mod.GetSettings().GetInt("AmbientText", "interval");
-            postTextInterval    = mod.GetSettings().GetInt("AmbientText", "postTextInterval");
-            textDisplayTime     = mod.GetSettings().GetInt("AmbientText", "textDisplayTime");
+            LoadSettings(settings, new ModSettingsChange());
+
+            Debug.LogFormat("AmbientText mod - loaded {0} text entries.", AmbientText.AmbientTexts.Count);
 
             mod.IsReady = true;
             Debug.Log("Finished mod init: AmbientText");
@@ -62,7 +70,7 @@ namespace AmbientText
             if (!DaggerfallUnity.Instance.IsReady || !playerEnterExit || GameManager.IsGamePaused)
                 return;
 
-            // Ambient text module.
+            // Ambient text selection
             if (!playerEnterExit.IsPlayerInsideBuilding && Time.unscaledTime > lastTickTime + tickTimeInterval)
             {
                 lastTickTime = Time.unscaledTime;
@@ -133,8 +141,7 @@ namespace AmbientText
             if (AmbientText.AmbientTexts.Contains(textKey))
                 return (string)AmbientText.AmbientTexts[textKey];
             else
-                // TODO: return null;
-                return textKey;
+                return null;
         }
 
         private static string WeatherKey()
