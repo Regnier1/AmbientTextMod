@@ -1,8 +1,10 @@
 {
     "ModTitle": "AmbientText",
-    "ModVersion": "0.3",
+    "ModVersion": "1.0",
     "ModAuthor": "Regnier",
+    "ContactInfo": "forums.dfworkshop.net",
     "DFUnity_Version": "0.13.5",
+    "ModDescription": "Environmental and situational unobtrusive ambient text popups.",
     "GUID": "045e9dd3-3d00-4241-87f3-ec9fd6947d12",
     "Files": [
         "Assets/Game/Mods/AmbientTextMod/Scripts/AmbientText.cs",
