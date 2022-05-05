@@ -92,7 +92,6 @@ namespace AmbientText
 
         public string SelectAmbientText()
         {
-            Random.InitState(Time.frameCount);
             string textKey;
 
             // Generate index (0-9)
