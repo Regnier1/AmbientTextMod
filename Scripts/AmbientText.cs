@@ -1708,7 +1708,7 @@ namespace AmbientText
 { "Cemetery6", "You feel unwelcome here." },
 { "Cemetery7", "You feel the gaze of the dead upon you." },
 { "Cemetery8", "Someone attempted to dig the ground here." },
-{ "Cemetery9", "Bones clatter about faintly"}
+{ "Cemetery9", "Bones clatter about faintly."}
 
             #endregion
         };
