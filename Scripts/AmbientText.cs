@@ -1462,7 +1462,7 @@ namespace AmbientText
 { "DungeonRuinDay8", "You think you hear something." },
 { "DungeonRuinDay9", "A broken sword is discarded nearby." },
 //---
-{ "DungeonRuinNight0", "There's an odd sound.." },
+{ "DungeonRuinNight0", "There's an odd sound..." },
 { "DungeonRuinNight1", "The air is musty." },
 { "DungeonRuinNight2", "Some bats squeak overhead." },
 { "DungeonRuinNight3", "The darkness is cloaking the entrance." },
