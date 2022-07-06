@@ -32,7 +32,7 @@ namespace AmbientText
 { "NoneDesert2", "A dried out plant rolls by." },
 { "NoneDesert3", "The heat rises off the sand behind you." },
 { "NoneDesert4", "A snake submerges in the sand." },
-{ "NoneDesert5", "The sand finds it way into your pack." },
+{ "NoneDesert5", "The sand finds it's way into your pack." },
 { "NoneDesert6", "Thick fur is buried in sand." },
 { "NoneDesert7", "Some footprints have nearly vanished." },
 { "NoneDesert8", "A baby scorpion crosses your path." },
