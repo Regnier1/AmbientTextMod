@@ -150,10 +150,10 @@ namespace AmbientText
             WeatherManager weatherManager = GameManager.Instance.WeatherManager;
             if (weatherManager.IsRaining || weatherManager.IsStorming)
                 weather = "Rainy";
-            else if (weatherManager.IsOvercast)
-                weather = "Cloudy";
             else if (weatherManager.IsSnowing)
                 weather = "Snowy";
+            else if (weatherManager.IsOvercast)
+                weather = "Cloudy";
             return weather;
         }
 
