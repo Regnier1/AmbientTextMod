@@ -98,7 +98,6 @@ namespace AmbientText
             int index = lastIndex;
             while (index == lastIndex)
                 index = Random.Range(0, 10);
-            lastIndex = index;
 
             PlayerEnterExit playerEnterExit = GameManager.Instance.PlayerEnterExit;
             if (playerEnterExit.IsPlayerInsideDungeon)
@@ -137,10 +136,12 @@ namespace AmbientText
                 }
             }
 
-            if (AmbientText.AmbientTexts.Contains(textKey))
+            if (AmbientText.AmbientTexts.Contains(textKey)) {
+                lastIndex = index;
                 return (string)AmbientText.AmbientTexts[textKey];
-            else
+            } else {
                 return null;
+            }
         }
 
         private static string WeatherKey()
