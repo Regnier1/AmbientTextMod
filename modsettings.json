@@ -9,7 +9,7 @@
                 {
                     "Min": 0,
                     "Max": 100,
-                    "Value": 25,
+                    "Value": 33,
                     "Name": "textChance",
                     "Description": "Chance % of selecting any ambient text each interval",
                     "$version": "v1",
