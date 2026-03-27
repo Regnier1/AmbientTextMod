@@ -1247,15 +1247,15 @@ namespace AmbientText
 //--- ---
 //--- ---
 //--- ---
-Clear, Cloudy, Rainy, Snowy
-{ "DayClear9", "" },
-{ "NightClear9", "" },
-{ "DayCloudy0", "" },
-{ "NightCloudy0", "" },
-{ "DayRainy0", "" },
-{ "NightRainy0", "" },
-{ "DaySnowy0", "" },
-{ "NightSnowy0", "" },
+//Clear, Cloudy, Rainy, Snowy
+//{ "DayClear9", "" },
+//{ "NightClear9", "" },
+//{ "DayCloudy0", "" },
+//{ "NightCloudy0", "" },
+//{ "DayRainy0", "" },
+//{ "NightRainy0", "" },
+//{ "DaySnowy0", "" },
+//{ "NightSnowy0", "" },
 //--- ---
 
             #endregion
@@ -1263,7 +1263,7 @@ Clear, Cloudy, Rainy, Snowy
             #region Day / Night texts:
 
 
-None,TownCity,TownHamlet,TownVillage,HomeFarms,DungeonLabyrinth,ReligionTemple,Tavern,DungeonKeep,HomeWealthy,ReligionCult,DungeonRuin,HomePoor,Graveyard,Coven,HomeYourShips
+//None,TownCity,TownHamlet,TownVillage,HomeFarms,DungeonLabyrinth,ReligionTemple,Tavern,DungeonKeep,HomeWealthy,R//eligionCult,DungeonRuin,HomePoor,Graveyard,Coven,HomeYourShips
 //---
 //
 // Wilderness Day/Night: 139 to 146
